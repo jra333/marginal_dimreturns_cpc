@@ -6,9 +6,7 @@ This repository contains tools to analyze and forecast Cost Per Click (CPC) metr
 
 ## Overview
 
-### 1. CPC Modeling Notebook
-
-**Path:** `marginal_cpc_notebooks/Notebooks/marginal_cpc_modeling_testing.ipynb`
+### 1. [CPC Modeling Notebook](https://github.com/jra333/marginal_dimreturns_cpc/tree/main/marginal_cpc_notebooks)
 
 - **Data Extraction & Cleaning**
   - Connects to Snowflake to retrieve raw cost, clicks, impressions, and search impression share data.
@@ -30,9 +28,7 @@ This repository contains tools to analyze and forecast Cost Per Click (CPC) metr
   - Saves the best performing model (with scalers and feature names) that is later used within the interactive app for real-time predictions.
 
 
-### 2. Interactive CPC Prediction App
-
-**Path:** `marginal_dimreturns_cpc/marginal_cpc_app_testing/app.py`
+### 2. [Interactive CPC Prediction App](https://github.com/jra333/marginal_dimreturns_cpc/tree/main/marginal_cpc_app_testing)
 
 - **Model Loading & Prediction**
   - Loads a pre-trained model along with relevant scalers and feature names from a pickle file.
